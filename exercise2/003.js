@@ -57,69 +57,6 @@ function soal3(param)
     }
     console.log('');
     return animal;
-    // for(var i = 0; i < param.length; i++) {
-    //     first_alpha = param[i].charAt(0);
-    //     animal["" + first_alpha] = [];
-    //     animal.first_alpha.push(param[i]);
-    // }
-    // console.log(animal);
-
-    /*
-    var tampungA = [];
-    var tampungB = [];
-    var tampungC = [];
-    var tampungK = [];
-    var tampungL = [];
-    var tampungM = [];
-    var tampungS = [];
-    var tampungZ = [];
-
-    for(var i = 0; i < param.length; i++) {
-        if(param[i].charAt(0) == 'A') {
-            tampungA.push(param[i]);
-        } else if(param[i].charAt(0) == 'B') {
-            tampungB.push(param[i]);
-        } else if(param[i].charAt(0) == 'C') {
-            tampungC.push(param[i]);
-        } else if(param[i].charAt(0) == 'K') {
-            tampungK.push(param[i]);
-        } else if(param[i].charAt(0) == 'L') {
-            tampungL.push(param[i]);
-        } else if(param[i].charAt(0) == 'M') {
-            tampungM.push(param[i]);
-        } else if(param[i].charAt(0) == 'S') {
-            tampungS.push(param[i]);
-        } else if(param[i].charAt(0) == 'Z') {
-            tampungZ.push(param[i]);
-        }
-    }
-    
-    if(tampungA.length != 0) {
-        console.log('A:' + tampungA);
-    }
-    if(tampungB.length != 0) {
-        console.log('B:' + tampungB);
-    }
-    if(tampungC.length != 0) {
-        console.log('C:' + tampungC);
-    }
-    if(tampungK.length != 0) {
-        console.log('K:' + tampungK);
-    }
-    if(tampungL.length != 0) {
-        console.log('L:' + tampungL);
-    }
-    if(tampungM.length != 0) {
-        console.log('M:' + tampungM);
-    }
-    if(tampungS.length != 0) {
-        console.log('S:' + tampungS);
-    }
-    if(tampungZ.length != 0) {
-        console.log('Z:' + tampungZ);
-    }
-    console.log('');
-    */
 }
 
 console.log(soal3(['Ayam','Kucing','Bebek','Sapi','Babi','Curut','Cacing','Monyet']));
