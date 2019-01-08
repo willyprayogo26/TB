@@ -10,11 +10,12 @@
 */
 
 function addAllRecursive(arr) {
-    if(arr == []) {
-        return;
+    if(arr.length == 0) {
+        return 0;
     } else {
+        var first_element = arr[0];
         arr.shift();
-        return arr[0] + addAllRecursive(arr);
+        return first_element + addAllRecursive(arr);
     }
 }
 

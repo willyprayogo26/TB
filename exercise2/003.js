@@ -2,6 +2,19 @@ function soal3(param)
 {
     var animal = {};
 
+    /*
+    for(var i = 0; i < param.length; i++) {
+        if(animal[param[i].charAt(0)] == null) {
+            animal[param[i].charAt(0)] = [];
+            animal.param[i].charAt(0).push(param[i]);
+        } else {
+            animal.param[i].charAt(0).push(param[i]);
+        }
+    }
+    return animal;
+}
+    */
+    
     animal["A"] = [];
     animal["B"] = [];
     animal["C"] = [];
